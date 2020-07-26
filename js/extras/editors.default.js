@@ -215,7 +215,7 @@
 			// called on initialization of elFinder cmd edit (this: this editor's config object)
 			setup : function(opts, fm) {
 				if (fm.UA.ltIE8 || fm.UA.Mobile) {
-					this.disabled = true;
+					// @dmiles // this.disabled = true;
 				} else {
 					this.opts = Object.assign({
 						version: 'v3.9.0'
@@ -224,7 +224,7 @@
 						theme : {}
 					});
 					if (!fm.isSameOrigin(this.opts.iconsPath)) {
-						this.disabled = true;
+						// @dmiles // this.disabled = true;
 						fm.debug('warning', 'Setting `commandOptions.edit.extraOptions.tuiImgEditOpts.iconsPath` MUST follow the same origin policy.');
 					}
 				}
@@ -490,7 +490,7 @@
 			// setup on elFinder bootup
 			setup : function(opts, fm) {
 				if (fm.UA.IE || fm.UA.Mobile) {
-					this.disabled = true;
+					// @dmiles // this.disabled = true;
 				}
 			},
 			// Initialization of editing node (this: this editors HTML node)
@@ -708,7 +708,7 @@
 			// called on initialization of elFinder cmd edit (this: this editor's config object)
 			setup : function(opts, fm) {
 				if (fm.UA.ltIE8 || !opts.extraOptions || !opts.extraOptions.pixo || !opts.extraOptions.pixo.apikey) {
-					this.disabled = true;
+					// @dmiles // this.disabled = true;
 				} else {
 					this.editorOpts = opts.extraOptions.pixo;
 				}
@@ -893,7 +893,7 @@
 			// called on initialization of elFinder cmd edit (this: this editor's config object)
 			setup : function(opts, fm) {
 				if (fm.UA.ltIE8 || !fm.options.cdns.ace) {
-					this.disabled = true;
+					// @dmiles // this.disabled = true;
 				}
 			},
 			// `mimes` is not set for support everything kind of text file
@@ -1098,7 +1098,7 @@
 			// called on initialization of elFinder cmd edit (this: this editor's config object)
 			setup : function(opts, fm) {
 				if (fm.UA.ltIE10 || !fm.options.cdns.codemirror) {
-					this.disabled = true;
+					// @dmiles // this.disabled = true;
 				}
 			},
 			// `mimes` is not set for support everything kind of text file
@@ -1255,7 +1255,7 @@
 			// called on initialization of elFinder cmd edit (this: this editor's config object)
 			setup : function(opts, fm) {
 				if (fm.UA.ltIE10 || !fm.options.cdns.simplemde) {
-					this.disabled = true;
+					// @dmiles // this.disabled = true;
 				}
 			},
 			info : {
@@ -2048,7 +2048,7 @@
 			// setup on elFinder bootup
 			setup : function(opts, fm) {
 				if (fm.UA.Mobile || fm.UA.ltIE8) {
-					this.disabled = true;
+					// @dmiles // this.disabled = true;
 				}
 			},
 			// Prepare on before show dialog

@@ -33,6 +33,7 @@ application/emma+xml emma
 application/epub+zip epub
 application/exi exi
 application/font-tdpfr pfr
+application/font-woff woff
 application/gml+xml gml
 application/gpx+xml gpx
 application/gxf gxf
@@ -515,8 +516,10 @@ application/x-eva eva
 application/x-font-bdf bdf
 application/x-font-ghostscript gsf
 application/x-font-linux-psf psf
+application/x-font-otf otf
 application/x-font-pcf pcf
 application/x-font-snf snf
+application/x-font-ttf ttf ttc
 application/x-font-type1 pfa pfb pfm afm
 application/x-freearc arc
 application/x-futuresplash spl

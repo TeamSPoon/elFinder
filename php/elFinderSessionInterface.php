@@ -26,6 +26,7 @@ interface elFinderSessionInterface
 
     /**
      * Get session data
+	 *
      * This method must be equipped with an automatic start / close.
      *
      * @param   string $key   Target key
@@ -37,6 +38,7 @@ interface elFinderSessionInterface
 
     /**
      * Set session data
+	 *
      * This method must be equipped with an automatic start / close.
      *
      * @param   string $key  Target key
